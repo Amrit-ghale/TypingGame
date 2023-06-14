@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Typing Speed Game</title>
+</head>
+<body>
+  <div id="game-container">
+    <h1 id="level-title"></h1>
+    <div id="score-lives-container">
+      <div id="score-container">
+        <span id="score-label">Score:</span>
+        <span id="score-count">0</span>
+      </div>
+      <div id="lives-container">
+        <span id="lives-label">Lives:</span>
+        <span id="lives-count">3</span>
+      </div>
+    </div>
+    <div id="word"></div>
+    <input type="text" id="input-word" placeholder="Type the word and press Enter" disabled>
+    <button id="start-button">Start</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
